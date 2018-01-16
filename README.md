@@ -23,7 +23,7 @@ There are 2 ways to use phanshot within your application:
     ```javascript
     app.use( '/screenshot', route );
     ```
-- Pass the API a URL on the query string to request a screenshot of that website.
+- Pass a URL on the query string to request a screenshot of that website.
     ```bash
     http://127.0.0.1:3000/screenshot?url=https://google.com
     ```
