@@ -1,6 +1,6 @@
 {
   "name": "phanshot",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Create screenshots on the server using NodeJS & Phantom",
   "main": "index.js",
   "directories": {
