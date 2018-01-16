@@ -10,7 +10,8 @@ npm install phanshot --save
 ## Getting Started
 There are 2 ways to use phanshot within your application:
 
-1. Use the built-in router to handle requests and responses.
+### Method 1
+Use the built-in router to handle requests and responses.
 
 - In your app entry file (index.js,  app.js, etc.) require **Express** and the phanshot router.
   ```javascript
@@ -31,8 +32,10 @@ There are 2 ways to use phanshot within your application:
     ```bash
     http://127.0.0.1:3000/screenshot?url=https://google.com&s=%23hplogo
     ```
+- You can also send a string of HTML on the body of your request rather than a URL. The query string params still work!
 
-2. Call phanshot's **capture** method directly from anywhere in your app.
+### Method 2
+Call phanshot's **capture** method directly from anywhere in your app.
 
 - Require the `phanshot` object.
     ```javascript
