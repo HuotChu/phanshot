@@ -7,10 +7,13 @@ Install via [npm](https://www.npmjs.com):
 npm install phanshot --save
 ```
 
-## Getting Started
-This is a **NEW** project; documentation is coming very soon!
+## Current Development
+Google MAP API attempts to call AuthenticationService.Authenticate which fails when phantom loads the map from a different origin. I am currently trying to circumvent this by loading the page into an iframe rather than directly into the page.
 
-## Sample JSON body sent with request
+## Getting Started
+This is a **NEW** project; *real* documentation is coming very soon!
+
+## Sample JSON body sent in a request to phanshot
 ### Screenshot from URL
 ```javascript
 {  
