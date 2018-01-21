@@ -1,6 +1,6 @@
 {
   "name": "phanshot",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Create screenshots on the server using NodeJS & Phantom",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/HuotChu/phanshot#readme",
   "keywords": [
-    "screenshot", "phantom"
+    "screenshot",
+    "phantom"
   ],
   "dependencies": {
     "express": "^4.16.2",
