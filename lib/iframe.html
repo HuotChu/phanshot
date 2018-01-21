@@ -1,0 +1,22 @@
+<html>
+<head>
+    <style>
+        iframe, html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        window.access = function () {
+            var pageFrame = document.getElementById("pageFrame");
+            var innerDoc = pageFrame.contentDocument || pageFrame.contentWindow.document;
+            document.frameBody = innerDoc.body;
+        };
+    </script>
+</head>
+<body>
+<iframe id="pageFrame" name="pageFrame" src="" onload="access()"></iframe>
+</body>
+</html>
