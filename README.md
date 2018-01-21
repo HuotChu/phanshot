@@ -107,15 +107,7 @@ The complete list of config options and their defaults:
 ```javascript
 {  
   "url":"https://google.com",
-  "selector":"#hplogo",
-  "phantom":[  
-    "--ignore-ssl-errors=yes",
-    "--web-security=no"
-  ],
-  "viewport":{  
-    "width":"1536",
-    "height":"920"
-  }
+  "selector":"#hplogo"
 }
 ```
 
@@ -123,14 +115,6 @@ The complete list of config options and their defaults:
 ```javascript
 {  
   "html":"<html><head></head><body style='background-color:#FFF'><div>This is a test</div><div style='width:200px;height:200px;background-color:#0000FF' id='blue'>&nbsp;</div></body></html>",
-  "selector":"#blue",
-  "phantom":[  
-    "--ignore-ssl-errors=yes",
-    "--web-security=no"
-  ],
-  "viewport":{  
-    "width":"1536",
-    "height":"920"
-  }
+  "selector":"#blue"
 }
 ```
